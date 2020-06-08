@@ -1,0 +1,126 @@
+/* line 1, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 6, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 11, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* line 19, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 23, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.filler {
+  padding-top: 105px;
+}
+
+/* line 27, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.about {
+  background-color: yellow;
+}
+
+/* line 31, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+footer {
+  display: flex;
+  background-color: pink;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+/* line 41, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.footer-nav {
+  flex-direction: column;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* line 48, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.cols {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 55, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.cols h3 {
+  margin-bottom: 30px;
+}
+
+/* line 59, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.col-3 ul li a::before {
+  content: '>';
+  font-weight: bold;
+}
+
+/* line 64, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.cols p,
+.cols a {
+  line-height: 28px;
+}
+
+/* line 69, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.col-3 a {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+/* line 75, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.col-1 p {
+  margin-bottom: 30px;
+}
+
+/* line 79, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.copy {
+  align-self: center;
+  justify-content: center;
+}
+
+/* line 84, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.footer p {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+/* line 89, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+/* line 99, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+/* line 106, ../../../Desktop/Portfolio/PFP/PeopleForPeople/SCSS/styles.scss */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
